@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'style.css' %}"/>
+  <title>Contact</title>
+</head>
+<body>
+  <div>
+    <nav class="nav">
+      <img src="{% static 'logo1.png' %}" alt="Logo" class="logo">
+
+      <ul>
+        <li><a href="/">Bosh Sahifa</a></li>
+        <li><a href="/about/">Saytlar haqida</a></li>
+        <li><a href="/contact/">Murojat uchun</a></li>
+      </ul>
+      
+    </nav>
+    <div class="royxat">
+     
+    <form class="otish">
+    <h1>Ro'yxatdan o'tish</h1><br><br>
+    <label class="label">Ism:</label><br><br>
+    <input type="text" placeholder="Ism" required class="input"/><br><br>
+    <label class="label">Familya:</label><br><br>
+    <input type="text" placeholder="Familya" required class="input" /><br><br>
+    <label class="label">Email:</label><br><br>
+    <input type="email" placeholder="Email" required class="input"/><br><br>
+    <label class="label">Parol:</label><br><br>
+    <input type="password" placeholder="Parol" required class="input"/><br><br>
+    <input type="checkbox" id="html" name="fav_language" value="HTML">
+    <label for="html">Ro'yxatdan o'tishga ro'ziman</label><br><br><br>
+    <button class="class">Ro'yxatdan o'tish</button>
+   </form>
+  
+    </div>
+    <footer style=" background: linear-gradient(to right, #050a19 0%, #0d2847 50%, #0096dc 100%); padding:50px 8% 20px; border-top:1px solid #1e3a5f;">
+  <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px;">
+
+    <div style="max-width:300px;">
+      <h3 style="color:#fff; font-family:Georgia, serif; margin-bottom:10px;">Sayt Nomi</h3>
+      <p style="font-size:14px; color:#8fa3c0;">
+        Web dasturlash asoslari va zamonaviy sayt yaratish bo'yicha o'quv loyihasi.
+      </p>
+    </div>
+
+    <div>
+      <h4 style="color:#fff; margin-bottom:12px;">Tezkor havolalar</h4>
+      <ul style="list-style:none; padding:0; font-size:14px; line-height:2;">
+        <li><a href="/" style="color:#8fa3c0; text-decoration:none;">Bosh Sahifa</a></li>
+        <li><a href="/about/" style="color:#8fa3c0; text-decoration:none;">Saytlar haqida</a></li>
+        <li><a href="/contact/" style="color:#8fa3c0; text-decoration:none;">Murojat uchun</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 style="color:#fff; margin-bottom:12px;">Bog'lanish</h4>
+      <p style="font-size:14px; color:#8fa3c0;">Email: info@sayt.uz</p>
+      <p style="font-size:14px; color:#8fa3c0;">Telegram: @sayt_channel</p>
+    </div>
+
+  </div>
+
+  <hr style="border:none; border-top:1px solid #1e3a5f; margin:30px 0 15px;">
+
+  <p style="text-align:center; font-size:13px; color:#5f7591;">
+    © 2026 Sizning Loyihangiz. Barcha huquqlar himoyalangan.
+  </p>
+</footer>
+
+  </div>
+</body>
+</html>

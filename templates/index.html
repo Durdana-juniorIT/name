@@ -1,0 +1,160 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <title>Index</title>
+</head>
+<body>
+  <div>
+    <nav class="nav">
+      <img src="{% static 'logo1.png' %}" alt="Logo" class="logo">
+
+      <ul>
+        <li><a href="/">Bosh Sahifa</a></li>
+        <li><a href="/about/">Saytlar haqida</a></li>
+        <li><a href="/contact/">Murojat uchun</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+
+      <div class="matnlar">
+        <h1 class="matn">Web Sayt Haqida</h1><br /><br />
+        <p class="pi">Web saytlar haqida ma'lumot olish uchun bizning saytimizga xush kelibsiz!
+          Agar ko'proq ma'lumot o'lish uchun 'Saytlar haqida' bo'limiga o'ting.
+        </p><br /><br/>
+        <button class="tugma"><a href="/about/" class="ba">Batafsil</a></button>
+      </div>
+    </header>
+   <div class="container">
+    <h1 class="h1">Normal Sayt Yasash Uchun Tillar</h1><br /> <br /><br /> <br /> <br />
+    <div class="it">
+     <div class="card">
+                <img src="https://itproger.com/img/courses/1476977240.jpg" class="img"/>
+                <h2>HTML</h2><br>
+                <p>HTML da  bizlar saytning strukturasini yaratib olamiz</p><br>
+                <button class="more"><a class="a" href="about">Ko'proq bilish</a></button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQINbzBKbHtFtmqXaJNtNcit5TXfM9DKodnNFVEoQumJuIs0xYGmYjdBDQJ&s=10" class="img"/>
+                <h2>CSS</h2><br>
+                <p>CSS da bizlar saytning ko'rinishini belgilaymiz</p><br>
+                 <button class="more"><a class="a" href="about">Ko'proq bilish</a></button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFG21chZOiMwge43vkWgdKc2KPFPqs4IL5kcppXjb0Pd28qyHj73A7bd4&s=10" class="img"/>
+                <h2>JavaScript</h2><br>
+                <p>JavaScript da bizlar saytning interaktivlikini qo'shamiz</p><br>
+                 <button class="more" ><a class="a" href="about">Ko'proq bilish</a></button>
+            </div>
+   </div>
+    </div>
+    <section class="schedule-section">
+  <h2 class="section-title">Dastur Jadvali</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-time">09:00</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Ro'yxatdan o'tish va kirish</h3>
+        <p>Ishtirokchilarni kutib olish, ro'yxatdan o'tkazish</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-time">09:30</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Ochilish nutqi</h3>
+        <p>Demo Day maqsadi va dasturi haqida qisqacha</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-time">10:00</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Loyihalar taqdimoti — 1-guruh</h3>
+        <p>Har bir jamoa 5 daqiqada o'z Python loyihasini taqdim etadi</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-time">12:00</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Tushlik tanaffusi</h3>
+        <p>Networking va dam olish</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-time">13:00</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Loyihalar taqdimoti — 2-guruh</h3>
+        <p>Qolgan jamoalar taqdimoti davom etadi</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-time">15:00</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Baholash va g'oliblarni e'lon qilish</h3>
+        <p>Hakamlar hay'ati eng yaxshi loyihalarni tanlaydi</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-time">16:00</div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Yakunlash va sertifikatlar</h3>
+        <p>Ishtirokchilarga sertifikat topshiriladi</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <footer style=" background: linear-gradient(to right, #050a19 0%, #0d2847 50%, #0096dc 100%); padding:50px 8% 20px; border-top:1px solid #1e3a5f;">
+  <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px;">
+
+    <div style="max-width:300px;">
+      <h3 style="color:#fff; font-family:Georgia, serif; margin-bottom:10px;">Sayt Nomi</h3>
+      <p style="font-size:14px; color:#8fa3c0;">
+        Web dasturlash asoslari va zamonaviy sayt yaratish bo'yicha o'quv loyihasi.
+      </p>
+    </div>
+
+    <div>
+      <h4 style="color:#fff; margin-bottom:12px;">Tezkor havolalar</h4>
+      <ul style="list-style:none; padding:0; font-size:14px; line-height:2;">
+        <li><a href="/" style="color:#8fa3c0; text-decoration:none;">Bosh Sahifa</a></li>
+        <li><a href="/about/" style="color:#8fa3c0; text-decoration:none;">Saytlar haqida</a></li>
+        <li><a href="/contact/" style="color:#8fa3c0; text-decoration:none;">Murojat uchun</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 style="color:#fff; margin-bottom:12px;">Bog'lanish</h4>
+      <p style="font-size:14px; color:#8fa3c0;">Email: info@sayt.uz</p>
+      <p style="font-size:14px; color:#8fa3c0;">Telegram: @sayt_channel</p>
+    </div>
+
+  </div>
+
+  <hr style="border:none; border-top:1px solid #1e3a5f; margin:30px 0 15px;">
+
+  <p style="text-align:center; font-size:13px; color:#5f7591;">
+    © 2026 Sizning Loyihangiz. Barcha huquqlar himoyalangan.
+  </p>
+</footer>
+  </div>
+</body>
+</html>
